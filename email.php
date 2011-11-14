@@ -22,7 +22,7 @@ if ( empty( $events ) ) {
 }
 
 /* Generate e-mail body */
-$email_body .= "\nXXX UPDATE HEADER XXX\n\n\n";
+$email_body = "\nXXX UPDATE HEADER XXX\n\n\n";
 $count = 1;
 
 $email_body .= "ADI Events\n";
